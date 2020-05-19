@@ -45,7 +45,7 @@
 							// Site title or logo.
 							twentytwenty_site_logo();
 
-							// Site description.
+							// Site description. 
 							
 						?>
 				</div><!-- .header-titles -->
