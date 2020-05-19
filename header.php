@@ -22,7 +22,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa:500|Lalezar&display=swap" rel="stylesheet">
-	<?php wp_head(); ?>
+	<?php 
+	die();
+	wp_head(); ?>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58938853-13"></script>
 	<script>
@@ -33,6 +35,7 @@
 	</script>
 </head>
 <body <?php body_class(); ?>>
+
 	<?php
 		wp_body_open();
 		?>
