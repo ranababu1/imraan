@@ -75,7 +75,7 @@ h1, .heading-size-1, h2, .heading-size-2, h3, .heading-size-3 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-	    font-size: 10rem !important;
+	    /* font-size: 10rem !important; */
 	letter-spacing: 2rem;
     font-weight: 100;
     font-family: 'Lalezar', cursive;
