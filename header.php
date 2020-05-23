@@ -14,7 +14,6 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="shortcut icon" type="image/png" href="/wp-content/themes/imran2/fav.png"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -30,10 +29,8 @@
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
-
 		gtag('config', 'UA-58938853-13');
 	</script>
-
 </head>
 <body <?php body_class(); ?>>
 
@@ -43,13 +40,12 @@
 	<header id="site-header" class="header-footer-group" role="banner">
 		<div class="header-inner section-inner">
 			<div class="header-titles-wrapper">
-				
 				<div class="header-titles">
 					<?php
 							// Site title or logo.
 							twentytwenty_site_logo();
 
-							// Site description.
+							// Site description. 
 							
 						?>
 				</div><!-- .header-titles -->
@@ -58,8 +54,6 @@
 					data-set-focus=".close-nav-toggle">
 					<span class="toggle-inner">
 <div class="triangle-right"></div>
-
-
 					</span>
 				</button><!-- .nav-toggle -->
 			</div><!-- .header-titles-wrapper -->
@@ -116,7 +110,6 @@
 						}
 						if ( true === $enable_header_search ) {
 							?>
-					
 					<?php
 						}
 						?>
