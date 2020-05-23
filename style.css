@@ -3215,7 +3215,8 @@ del {
   transition: all 300ms linear 0s;
   /* background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%); */
   /* background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%); */
-  background-image: linear-gradient( 135deg, #00395d 10%, #a89dee 100%);
+  /* background-image: linear-gradient( 135deg, #00395d 10%, #a89dee 100%); */
+  background-image: linear-gradient( 135deg, #f3f7f9 10%, #6a7175 100%);
   min-height: 300px;
   margin-bottom: 30px;
 }
@@ -3233,7 +3234,7 @@ del {
 }
 
 .feature_item h4 {
-  color: #ffeaa7;
+  color: #272829;
   font-size: 30px;
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
