@@ -4002,3 +4002,18 @@ del {
   max-width: 100rem;
   width: calc(100% - 6rem);
 }
+
+.progress {
+  height: 10px;
+  background: #00395d;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.progress__highlight {
+  transition: width 0.15s linear;
+  background: #28a745;
+  height: 100%;
+  width: 0%;
+}
