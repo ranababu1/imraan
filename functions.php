@@ -34,3 +34,7 @@ function injectAdsense(){
 
 add_action( 'wp_head', 'injectAdsense' );
 
+function wc_prevent_clickjacking() {
+    header( 'X-FRAME-OPTIONS: SAMEORIGIN' );
+}
+add_action( 'send_headers', 'wc_prevent_clickjacking', 10 );
